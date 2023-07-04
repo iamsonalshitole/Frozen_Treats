@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frozen treat</title>
+    
+<!-- external css -->
+<link rel="stylesheet" href="mystyle.css">
+<script src="script.js"></script>
+<!-- internal css -->
+    <style>
+        
+        :root{
+            --c1:#E1F2F7;
+            --c2:#EF0D50;
+            --c3:#EB3A70;
+            --c4:#E5BACE;
+        }
+        body{
+         
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        <!-- .logo{
+            display: flex;
+            justify-content: center;
+            background-color: #EB3A70;
+        } -->
+        .logo img{
+            width: 100%;
+            height: 500px;
+        }
+        <!-- .logo h1{
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+        } -->
+        
+        .navbar{
+            display: flex;
+            justify-content: space-evenly;
+            background-color:#E1F2F7 ;
+            height: 30px;
+            align-items: center;
+        }
+        .navbar li{
+            list-style-type:none;
+            margin: 10px;
+        }
+        .navbar li a{
+            text-decoration: none;
+            font-size: 30px;
+            
+        }
+        .navbar li a:hover{
+            background-color:#EB3A70;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<hr>
+    <header>
+        
+        <div class="logo img" >
+            
+            <img src="https://c4.wallpaperflare.com/wallpaper/606/639/767/ice-cream-all-flavors-wallpaper-preview.jpg" alt="pic">
+            
+        </div>
+        
+    <ul class="navbar">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="signup.html">Sign Up</a></li>
+        <li><a href="contact.htm">Contact us</a></li>
+        <li><a href="about.html">About us </a></li>
+
+
+    </ul>
+    </header>
+    <form onsubmit="return valid_signin()">
+      <div class="signin">
+        
+        <div class="form-container">
+            
+            <input type="text" id="username" name="" placeholder="Enter username" value="" >
+            <input type="text"id="password" name="" placeholder="Enter password" value="" >
+            <button type="submit" id="signin-button" name="button">Sign in</button>
+        </div>
+        
+
+      </div>
+
+    </form>
+    
+    
+   
+    
+    <!-- inline css -->
+    <h1 style="color:#EF0D50;">Order now!!!</h1>
+   
+    <main>
+            <table>
+                <tr id="heading">
+                  <th>Frozen Dessert</th>
+                  <th>Price(Rs.)</th>
+                </tr>
+                <tr>
+                  <td>Oreo & Cream </td>
+                  <td>349</td>
+                </tr>
+                <tr>
+                  <td>Fruit & Nut</td>
+                  <td>499</td>
+                </tr>
+                <tr>
+                    <td>Magnum Almond Rich</td>
+                    <td>399</td>
+                  </tr>
+                  <tr>
+                    <td>Dark Chocolate Combo</td>
+                    <td>499</td>
+                  </tr>
+                  <tr>
+                    <td>Mix Fruit Combo</td>
+                    <td>299</td>
+                  </tr>
+                  <tr>
+                    <td>Mango Magic</td>
+                    <td>199</td>
+                  </tr>
+                  <tr>
+                    <td>Kesar Pista</td>
+                    <td>399</td>
+                  </tr>
+                  <tr>
+                    <td>Coffee Toffee</td>
+                    <td>599</td>
+                  </tr>
+                  <tr>
+                    <td>Orange Duet</td>
+                    <td>299</td>
+                  </tr>
+                  <tr>
+                    <td>Strawbery</td>
+                    <td>349</td>
+                  </tr>
+                  <tr>
+                    <td>Kulfi Combo</td>
+                    <td>549</td>
+                  </tr>
+              </table>
+
+        
+
+        <div class="list">
+            <ul>
+                <li>FREE HOME DELIVERY : No hidden charges on delivery!</li>
+                <li>CATERING SERVICES  : We cater to all types of gatherings to ensure our desserts add sweetness to the occasion.</li>
+                <li>QUALITY            : All our offerings go through a quality-check to ensure good taste matches top hygiene.</li>
+                <li>AWARDS             : Quality and Hygiene are our core strength for which we have been recognized with many awards.</li>
+            </ul>
+
+        </div>
+    </main>
+
+
+</html>

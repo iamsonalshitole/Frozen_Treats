@@ -1,0 +1,80 @@
+#heading {
+  color: palevioletred;
+}
+table {
+  border: 2px solid palevioletred;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+}
+th,td {
+  padding: 20px;
+  text-align: center;
+  font-size: xx-large;
+}
+tr:hover {
+  background-color: #e5bace;
+}
+th {
+  background-color: #eb3a70;
+  color: black;
+}
+.list{
+  background-color:#eb3a70;
+ }
+ marquee{
+   background-color: #eb3a70;
+ }
+
+
+.signin{
+  height: 300px;
+  width: 250px;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  border-radius: 20px;
+  box-shadow: rgba(238, 5, 121, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.form-container{
+  width: 100%;
+  padding: 50px;
+  padding-top: 50px;
+ 
+}
+
+#username{
+display: block;
+margin-bottom: 20%;
+height: 20px;
+width: 150px;
+border-radius: 5px;
+}
+#password{
+  display: block;
+  height: 20px;
+  width: 150px;
+  border-radius: 5px;
+  
+}
+#signin-button{
+  border-radius: 5px;
+  background-color:#e5bace ;
+ float:right;
+ border: none;
+ height: 40px;
+ width: 70px;
+  
+  margin-top: 10%;
+
+}
+#signin-button:hover{
+  background-color: #eb3a70;
+}
+
+
+
+

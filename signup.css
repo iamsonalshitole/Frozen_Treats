@@ -1,0 +1,77 @@
+.signup{
+
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.form-container{
+    width: 100%;
+    padding: 70px;
+    padding-top: 50px;
+
+}
+
+#name{
+  display: block;
+  margin-bottom: 20%;
+  height: 20px;
+  width: 150px;
+  border-radius: 5px;
+}
+/* #last{
+    display: block;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+  } */
+  #email{
+    display: block;
+    margin-bottom: 20%;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  #password{
+    display: block;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 20%;
+    
+}
+  #phone{
+    display: block;
+    margin-bottom: 10%;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  #age{
+    display: block;
+    margin-bottom: 3%;
+    height: 20px;
+    width: 150px;
+    border-radius: 5px;
+  }
+  #button{
+     display: flexbox;
+  }
+
+#signup-button{
+    border-radius: 5px;
+    background-color:rgb(51, 69, 236) ;
+   float:right;
+   border: none;
+   height: 40px;
+   width: 70px;
+    
+    margin-top: 10%;
+  
+
+}
+
